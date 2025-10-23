@@ -1,4 +1,5 @@
 const cuentas = [
+
   {
     "_id": "68f99c18fdf3899b31fd2f7b",
     "isActive": true,
@@ -55,6 +56,7 @@ const cuentas = [
     "client": "Lina Flowers",
     "gender": "female"
   }
+  
 ];
 
 module.exports = cuentas;

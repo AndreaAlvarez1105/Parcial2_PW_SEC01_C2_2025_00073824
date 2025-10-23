@@ -10,4 +10,5 @@ router.get('/cuentasBalance', cuentasBalance);
 router.get('/cuenta/:id', cuentaPorId);         
 router.get('/cuentas', cuentasTotales); 
 
+
 module.exports = router;

@@ -96,6 +96,7 @@ const cuentasBalance = (req, res) => {
     });
 };
 
+
 module.exports = {
     cuentasTotales,
     cuentaPorId,
