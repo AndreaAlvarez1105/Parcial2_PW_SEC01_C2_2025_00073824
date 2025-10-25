@@ -4,7 +4,7 @@ const {
     cuentasTotales,
     cuentaPorId,
     cuentasBalance
-} = require('./cuentas');
+} = require('../controladores/cuentas');
 
 router.get('/cuentasBalance', cuentasBalance);  
 router.get('/cuenta/:id', cuentaPorId);         

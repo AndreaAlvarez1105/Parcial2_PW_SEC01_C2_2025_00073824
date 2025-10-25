@@ -1,5 +1,5 @@
 const express = require('express');
-const rutasCuentas = require('./rutasCuentas');
+const rutasCuentas = require('./rutas/rutasCuentas');
 
 const app = express();
 const PORT = 3130;
@@ -10,7 +10,7 @@ app.use('/', rutasCuentas);
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Rutas de endopoints para el ejercicio de cuentas: ',
+    message: '--Rutas de endopoints para el ejercicio Parcial Práctico 02 PW-- ',
     endpoints: [
       'GET /cuentas --- Obtener todas las cuentas',
       'GET /cuenta/:id --- Obtener cuenta por ID',

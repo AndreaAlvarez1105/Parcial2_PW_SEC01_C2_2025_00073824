@@ -1,4 +1,4 @@
-const cuentas = require('./cuentasDeclaracion');
+const cuentas = require('../data/cuentasDeclaracion');
 
 const cuentasTotales = (req, res) => {
     if (Object.keys(req.query).length > 0) {

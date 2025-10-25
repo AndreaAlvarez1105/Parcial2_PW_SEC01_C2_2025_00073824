@@ -41,11 +41,11 @@ const cuentas = [
     "gender": "male"
   },
   {
-    "_id": "68f99c499d57fb26c6648de6",
+    "_id": "0007382499d57fb26c6648de6",
     "isActive": false,
     "picture": "http://placehold.it/32x32",
     "balance": "$2,865.84",
-    "client": "Susie Sanford",
+    "client": "Andrea Álvarez",
     "gender": "female"
   },
   {
